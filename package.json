@@ -3,20 +3,25 @@
   "version": "1.0.0",
   "description": "portfolio generator",
   "main": "app.js",
+  "dependencies": {
+    "inquirer": "^8.2.4" 
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TBertazoli/portfolio-generator.git"
   },
+  "keywords": [
+    "portfolio",
+    "generator",
+    "node.js"
+  ],
   "author": "Tatiana Bertazoli",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TBertazoli/portfolio-generator/issues"
   },
-  "homepage": "https://github.com/TBertazoli/portfolio-generator#readme",
-  "dependencies": {
-    "inquirer": "^8.0.0"
-  }
+  "homepage": "https://github.com/TBertazoli/portfolio-generator#readme"
 }
